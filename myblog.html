@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>W E L C O M E</title>
+		
+		<meta charset=”utf-8”   />
+		
+		<meta http-equiv=”Content-type” content=”text/html; charset=utf-8” />
+		 
+		<meta name=”viewport” content=”width=device-width, initial-scale=1” />
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+		 
+	</head>
+	
+	<body>
+        
+        <div id="parentdiv">
+	
+            <div id="mainbodydiv">
+
+                <div id="headerdiv">
+
+                    <h1 id="headerheading">MINDY LONG</h1>
+
+                </div>
+
+                <div id="menudiv">
+
+                        <div id="buttoncontainer">
+
+                            <button id="homebutton" class="menubuttons"><a href="index.html">HOME</a></button>
+
+                            <button id="portfoliobutton" class="menubuttons"><a href="portfolio.html">PORTFOLIO</a></button>
+
+                            <button id="servicesbutton" class="menubuttons"><a href="services.html">SERVICES</a></button>
+
+                            <button id="testimonialsbutton" class="menubuttons"><a href="testimonials.html">TESTIMONIALS</a></button>
+
+                            <button id="aboutbutton" class="menubuttons"><a href="about.html">ABOUT</a></button>
+
+                            <button id="blogbutton" class="menubuttons"><a href="myblog.html">MY BLOG</a></button>
+
+                            <button id="contactbutton" class="menubuttons"><a href="contactme.html">CONTACT ME</a></button>
+
+                        </div>
+
+                        <img id="headshot" src="Mindy%20Headshot.jpg">
+
+                </div>
+
+                <h2 id="myblogheader">MY BLOG</h2>
+
+                <div id="myblogdiv">
+
+                    <p id="myblogparagraph">Are you interested in seeing what happens when the writing life and family life collide? Then click on over to my blog, Mindy Writes, for the inside scoop on life as a write-at-home mom.</p>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <script>
+
+            $(document).ready(function(){
+                $("#headerdiv").hide(0).delay(0).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headerheading").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#menudiv").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#buttoncontainer").animate({ width:"1324px" }, 3000);
+            });
+            
+            $(document).ready(function(){
+                $("#bodydiv").hide(0).delay(1000).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headshot").hide(0).delay(1800).fadeIn(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#myblogheader").hide(0).delay(3000).slideDown(1000)
+            });
+            
+            $(document).ready(function(){
+                $("#myblogdiv").hide(0).delay(3000).fadeIn(3000)
+            });
+                    
+        </script>
+        
+	</body>
+
+</html>

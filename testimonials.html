@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>W E L C O M E</title>
+		
+		<meta charset=”utf-8”   />
+		
+		<meta http-equiv=”Content-type” content=”text/html; charset=utf-8” />
+		 
+		<meta name=”viewport” content=”width=device-width, initial-scale=1” />
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+		 
+	</head>
+	
+	<body>
+        
+        <div id="parentdiv">
+	
+            <div id="mainbodydiv">
+
+                <div id="headerdiv">
+
+                    <h1 id="headerheading">MINDY LONG</h1>
+
+                </div>
+
+                <div id="menudiv">
+
+                        <div id="buttoncontainer">
+
+                            <button id="homebutton" class="menubuttons"><a href="index.html">HOME</a></button>
+
+                            <button id="portfoliobutton" class="menubuttons"><a href="portfolio.html">PORTFOLIO</a></button>
+
+                            <button id="servicesbutton" class="menubuttons"><a href="services.html">SERVICES</a></button>
+
+                            <button id="testimonialsbutton" class="menubuttons"><a href="testimonials.html">TESTIMONIALS</a></button>
+
+                            <button id="aboutbutton" class="menubuttons"><a href="about.html">ABOUT</a></button>
+
+                            <button id="blogbutton" class="menubuttons"><a href="myblog.html">MY BLOG</a></button>
+
+                            <button id="contactbutton" class="menubuttons"><a href="contactme.html">CONTACT ME</a></button>
+
+                        </div>
+
+                        <img id="headshot" src="Mindy%20Headshot.jpg">
+
+                </div>
+
+                <h2 id="testimonialsheader">SERVICES</h2>
+
+                <div class="testimonialsdivs">
+
+                    <p class="testimonialsparagraphs">“Mindy Long has been a client and a freelance writer for my company. In both roles, she has been the consummate professional. She understands what makes a compelling story and then delivers. She meets all deadlines and produces great work. I recommend her without reservation."</p>
+
+                    <p class="testimonialsauthors">—Bobby Stark, President, Parthenon Publishing</p>
+
+                </div>
+
+                <div class="testimonialsdivs">
+
+                    <p class="testimonialsparagraphs">“Mindy Long is an extremely talented, highly versatile writer and editor. It has been a pleasure to drop any kind of communication project in her lap and know that she will deliver on-time, outstanding results. Trailways is fortunate to tap-into Mindy’s array of communication, writing, editorial and research talents."</p>
+
+                    <p class="testimonialsauthors">—Gale C. Ellsworth, President, Trailways National Office</p>
+
+                </div>
+
+                <div class="testimonialsdivs">
+
+                    <p class="testimonialsparagraphs">“Mindy Long is one of our most reliable and talented writers. She has proved she can handle any subject or story type we throw her way and excels at writing in-depth articles about complicated topics. Her stories are always turned in on time and require little editing."</p>
+
+                    <p class="testimonialsauthors">—Erica Walkup, Associate Editor, Shopper Marketing (formerly P-O-P Times)</p>
+
+                </div>
+
+                <div class="testimonialsdivs">
+
+                    <p class="testimonialsparagraphs">“Mindy’s work ethic and attitude makes her a pleasure to work with. She meets every deadline and addresses any editing questions quickly and professionally. Regardless of the assignment, her writing makes it clear she has taken the time to research and understand the topic ahead of time.”</p>
+
+                    <p class="testimonialsauthors">—Neil Abt, Managing Editor, Transport Topics</p>
+
+                </div>
+
+                <div class="testimonialsdivs">
+
+                    <p class="testimonialsparagraphs">"Mindy Long is a skilled, versatile writer and an absolute joy to work with. I particularly value her ability to thoroughly research complex, technical subjects; she easily identifies the core issues or messages and communicates them clearly and creatively. She connects so readily with people, making her adept at interviewing and humanizing a story. I have always been impressed with her professionalism and flexibility."</p>
+
+                    <p class="testimonialsauthors">–Lisa Mullings, President and CEO, NATSO</p>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <script>
+            
+            document.getElementById("mainbodydiv").style.height = '2050px';
+
+            $(document).ready(function(){
+                $("#headerdiv").hide(0).delay(0).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headerheading").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#menudiv").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#buttoncontainer").animate({ width:"1324px" }, 3000);
+            });
+            
+            $(document).ready(function(){
+                $("#bodydiv").hide(0).delay(1000).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headshot").hide(0).delay(1800).fadeIn(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#whattheysaydiv").hide(0).delay(3000).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#testimonialsheader").hide(0).delay(3000).slideDown(1000)
+            });
+            
+            $(document).ready(function(){
+                $(".testimonialsdivs").hide(0).delay(3000).fadeIn(3000)
+            });
+                    
+        </script>
+        
+	</body>
+
+</html>

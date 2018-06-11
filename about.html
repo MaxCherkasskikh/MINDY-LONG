@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>W E L C O M E</title>
+		
+		<meta charset=”utf-8”   />
+		
+		<meta http-equiv=”Content-type” content=”text/html; charset=utf-8” />
+		 
+		<meta name=”viewport” content=”width=device-width, initial-scale=1” />
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+		 
+	</head>
+	
+	<body>
+        
+        <div id="parentdiv">
+	
+            <div id="mainbodydiv">
+
+                <div id="headerdiv">
+
+                    <h1 id="headerheading">MINDY LONG</h1>
+
+                </div>
+
+                <div id="menudiv">
+
+                        <div id="buttoncontainer">
+
+                            <button id="homebutton" class="menubuttons"><a href="index.html">HOME</a></button>
+
+                            <button id="portfoliobutton" class="menubuttons"><a href="portfolio.html">PORTFOLIO</a></button>
+
+                            <button id="servicesbutton" class="menubuttons"><a href="services.html">SERVICES</a></button>
+
+                            <button id="testimonialsbutton" class="menubuttons"><a href="testimonials.html">TESTIMONIALS</a></button>
+
+                            <button id="aboutbutton" class="menubuttons"><a href="about.html">ABOUT</a></button>
+
+                            <button id="blogbutton" class="menubuttons"><a href="myblog.html">MY BLOG</a></button>
+
+                            <button id="contactbutton" class="menubuttons"><a href="contactme.html">CONTACT ME</a></button>
+
+                        </div>
+
+                        <img id="headshot" src="Mindy%20Headshot.jpg">
+
+                </div>
+
+                <h2 id="aboutmeheader">ABOUT ME</h2>
+
+                <div id="aboutmediv">
+
+                    <p class="aboutmeparagraphs">I have been writing professionally for more than 15 years and freelancing full time for six years. As a journalist, I’ve written about everything from video games to diesel fuel additives.</p>
+
+                    <p class="aboutmeparagraphs">I am confident in my ability to quickly master nearly any subject. No matter the topic, I persevere until I find the right sources and varied viewpoints that make the story complete. Whether it is eating lunch with inmates at the Utah State Prison, interviewing actors at the Sundance Film Festival or talking with legislators in the Capitol, I am able to connect with my sources and learn from their experiences.</p>
+
+                    <p class="aboutmeparagraphs">Before launching a full-time freelance career, I edited Stop Watch, a bi-monthly trade publication for a national trade association, where I wrote extensively about transportation and fuel issues. Prior to that, I worked as a staff reporter for Transport Topics, a weekly trade newspaper, covering freight transportation, fuel and environmental issues. I continue to freelance for both publications.</p>
+
+                    <p class="aboutmeparagraphs">In addition to covering the transportation sector, I have written, reported and edited for a variety of media outlets. I was the Washington correspondent for WCAX-TV (CBS) in Burlington, Vermont, a criminal court reporter in Chicago and a freelance copy editor for Kiplinger’s Personal Finance magazine in Washington, D.C.</p>
+
+                    <p class="aboutmeparagraphs">I hold a master’s degree from Northwestern University’s Medill School of Journalism in Evanston, Illinois, and a bachelor’s degree in Communications from Westminster College in Salt Lake City. I have attended writing courses at Georgetown University in Washington, D.C., and the Writer’s Center in Bethesda, Maryland, and through the OpEd Project, Writer’s Digest and mediabistro.com.</p>
+
+                    <p class="aboutmeparagraphs">I am a member of the Northwestern Alumni Admissions Council, a hockey mom and a volunteer at my children’s school.</p>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <script>
+
+            $(document).ready(function(){
+                $("#headerdiv").hide(0).delay(0).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headerheading").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#menudiv").hide(0).delay(500).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#buttoncontainer").animate({ width:"1324px" }, 3000);
+            });
+            
+            $(document).ready(function(){
+                $("#bodydiv").hide(0).delay(1000).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#headshot").hide(0).delay(1800).fadeIn(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#whattheysaydiv").hide(0).delay(3000).slideDown(2000)
+            });
+            
+            $(document).ready(function(){
+                $("#aboutmeheader").hide(0).delay(3000).slideDown(1000)
+            });
+            
+            $(document).ready(function(){
+                $("#aboutmediv").hide(0).delay(3000).fadeIn(3000)
+            });
+                    
+        </script>
+        
+	</body>
+
+</html>
